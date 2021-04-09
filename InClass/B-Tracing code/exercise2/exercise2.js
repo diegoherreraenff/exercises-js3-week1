@@ -33,6 +33,7 @@ function removeVowelsForWords(words) {
   Let's trace this piece of code - what is the value of result with this input
   */
   var result = removeVowels('samuel');
+  console.log(result)
 
 
 
@@ -42,3 +43,13 @@ function removeVowelsForWords(words) {
     expected output?:
 */
 
+var names1 =removeVowels('Irina');
+console.log(names1)
+
+var names2 =removeVowels('Etza');
+console.log(names2)
+
+var names3 =removeVowels('Daniel');
+console.log(names3)
+
+/* las funcion removeVowels separa las vocales con de las consonante de los strings */
